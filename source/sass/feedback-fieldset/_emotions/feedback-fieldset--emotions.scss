@@ -1,0 +1,12 @@
+@media (min-width: $tablet-width) {
+  .feedback-fieldset--emotions {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset--emotions {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}

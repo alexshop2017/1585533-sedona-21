@@ -3,3 +3,9 @@
     align-self: flex-start;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset__intro-label--rate {
+    margin-left: 140px;
+  }
+}

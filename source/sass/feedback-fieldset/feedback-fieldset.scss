@@ -5,10 +5,16 @@
   width: 100%;
   border: none;
   border-top: 1px solid $line-color;
-  padding-top: 20px;
-  padding-bottom: 25px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
   margin-left: 0;
   margin-right: 0;
+  padding-top: 20px;
+  padding-bottom: 24px;
   padding-left: 20px;
   padding-right: 20px;
 }

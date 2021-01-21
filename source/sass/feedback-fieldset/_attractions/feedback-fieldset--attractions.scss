@@ -1,0 +1,23 @@
+.feedback-fieldset--attractions {
+  padding: 15px 20px 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-fieldset--attractions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 11px 0 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset--attractions {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}

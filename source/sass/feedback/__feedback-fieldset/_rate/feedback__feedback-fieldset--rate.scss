@@ -4,5 +4,14 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback__feedback-fieldset--rate {
+    margin-top: 0;
+    padding-top: 0;
   }
 }

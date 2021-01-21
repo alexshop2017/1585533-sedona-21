@@ -4,5 +4,11 @@
   align-items: center;
   text-transform: uppercase;
   color: $secondary-color;
-  margin-right: 16px;
+  margin-right: 14px;
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset__label {
+    margin-right: 0;
+  }
 }

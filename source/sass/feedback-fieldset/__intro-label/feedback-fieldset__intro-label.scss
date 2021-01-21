@@ -1,7 +1,14 @@
 .feedback-fieldset__intro-label {
-  line-height: 26px;
   font-size: 18px;
+  line-height: 26px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-fieldset__intro-label {
+    font-size: 21px;
+    line-height: 26px;
+  }
 }

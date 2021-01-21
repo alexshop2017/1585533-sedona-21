@@ -1,0 +1,11 @@
+@media (min-width: $tablet-width) {
+  .feedback-fieldset--name {
+    padding-top: 17px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset--name {
+    padding-top: 12px;
+  }
+}

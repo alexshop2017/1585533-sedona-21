@@ -2,5 +2,11 @@
   width: 100%;
   padding: 0;
   resize: none;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-fieldset__input--textarea {
+    margin-top: 55px;
+  }
 }

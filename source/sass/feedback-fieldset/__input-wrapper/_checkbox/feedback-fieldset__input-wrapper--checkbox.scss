@@ -5,5 +5,15 @@
   align-items: center;
   width: 100%;
   height: 56px;
-  margin-top: 20px;
+  margin-top: 24px;
+}
+
+.feedback-fieldset__input-wrapper--checkbox:first-of-type {
+  margin-top: 22px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-fieldset__input-wrapper--checkbox {
+    margin-top: 32px;
+  }
 }

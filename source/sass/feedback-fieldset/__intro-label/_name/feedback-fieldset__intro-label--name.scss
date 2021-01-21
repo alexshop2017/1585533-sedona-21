@@ -1,0 +1,12 @@
+@media (min-width: $tablet-width) {
+  .feedback-fieldset__intro-label--name {
+    text-align: left;
+    margin-left: 58px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset__intro-label--name {
+    margin-left: 80px;
+  }
+}

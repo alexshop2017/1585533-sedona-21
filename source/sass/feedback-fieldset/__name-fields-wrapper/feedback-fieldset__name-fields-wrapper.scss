@@ -4,6 +4,15 @@
 
 @media (min-width: $tablet-width) {
   .feedback-fieldset__name-fields-wrapper {
-    margin-top: 60px;
+    margin-top: 35px;
+    margin-left: 58px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset__name-fields-wrapper {
+    margin-top: 37px;
+    margin-left: 80px;
+    margin-right: 60px;
   }
 }

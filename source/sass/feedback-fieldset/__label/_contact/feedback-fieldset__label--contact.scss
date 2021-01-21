@@ -1,4 +1,20 @@
 .feedback-fieldset__label--contact {
-  margin-left: 42px;
+  margin-top: 0;
+  margin-left: 22px;
   margin-bottom: 8px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-fieldset__label--contact {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset__label--contact {
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 0;
+    margin-right: 16px;
+  }
 }

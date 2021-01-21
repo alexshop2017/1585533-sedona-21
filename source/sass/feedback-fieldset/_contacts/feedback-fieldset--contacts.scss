@@ -1,7 +1,27 @@
+.feedback-fieldset--contacts {
+  padding-bottom: 28px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-fieldset--contacts {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 46px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .feedback-fieldset--contacts {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     width: 100%;
+    padding-top: 33px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }

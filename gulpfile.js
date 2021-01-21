@@ -144,7 +144,6 @@ const watcher = () => {
 }
 
 exports.default = gulp.series(
-  clean,
   build,
   server,
   watcher

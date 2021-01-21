@@ -1,0 +1,27 @@
+@media (min-width: $tablet-width) {
+  .feedback-fieldset__item-attractions {
+    padding-left: 32px;
+    padding-right: 15px;
+    margin-bottom: 11px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-fieldset__item-attractions {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feedback-fieldset__item-attractions:nth-of-type(2) {
+    margin-left: 69px;
+  }
+
+  .feedback-fieldset__item-attractions:nth-of-type(3) {
+    margin-left: 77px;
+    flex-grow: 1;
+  }
+
+  .feedback-fieldset__item-attractions:last-of-type {
+    justify-self: flex-end;
+  }
+}

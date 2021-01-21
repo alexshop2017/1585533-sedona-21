@@ -1,0 +1,10 @@
+.feedback-fieldset__intro-label--attractions {
+  margin-top: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-fieldset__intro-label--attractions {
+    margin-top: 14px;
+    align-self: center;
+  }
+}

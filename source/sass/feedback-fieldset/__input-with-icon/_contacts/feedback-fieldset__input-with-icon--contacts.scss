@@ -1,0 +1,9 @@
+@media (min-width: $desktop-width) {
+  .feedback-fieldset__input-with-icon--contacts {
+    margin-right: 0;
+  }
+
+  .feedback-fieldset__input-wrapper--contact:first-of-type .feedback-fieldset__input-with-icon--contacts {
+    margin-right: 80px;
+  }
+}
