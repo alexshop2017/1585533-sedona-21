@@ -1,3 +1,9 @@
 .intro__main-photo-text--catalog {
   top: 50px;
 }
+
+@media (min-width: $tablet-width) {
+  .intro__main-photo-text--catalog {
+    top: 94px;
+  }
+}

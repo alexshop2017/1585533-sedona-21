@@ -5,3 +5,13 @@
   text-transform: uppercase;
   margin-left: 14px;
 }
+
+@media (min-width: $tablet-width) {
+  .photo__like-counter {
+    margin-left: 9px;
+    margin-top: 1px;
+    flex-grow: 1;
+    width: 100%;
+    text-align: left;
+  }
+}

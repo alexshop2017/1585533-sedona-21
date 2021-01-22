@@ -3,21 +3,23 @@
   flex-direction: column;
   width: 320px;
   margin: 0 auto;
-  padding-bottom: 49px;
+  padding-bottom: 43px;
+  border-top: solid 1px $line-color;
 }
 
 @media (min-width: $tablet-width) {
   .video {
     width: 648px;
-    padding-top: 66px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 44px;
+    border-top: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .video {
     width: 800px;
-    padding-top: 63px;
-    padding-bottom: 85px;
+    padding-top: 28px;
+    padding-bottom: 88px;
   }
 }

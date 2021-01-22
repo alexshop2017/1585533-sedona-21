@@ -3,3 +3,10 @@
   grid-column-start: 1;
   grid-column-end: 2;
 }
+
+@media (min-width: $tablet-width) {
+  .video__button--replay {
+    margin-left: 12px;
+    margin-bottom: 4px;
+  }
+}

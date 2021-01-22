@@ -79,10 +79,13 @@
 @import "infrastructure/__icon-wrapper/infrastructure__icon-wrapper.scss";
 @import "infrastructures/infrastructures.scss";
 @import "intro/intro.scss";
+@import "intro/_catalog/intro--catalog.scss";
 @import "intro/_form/intro--form.scss";
 @import "intro/__description/intro__description.scss";
+@import "intro/__description/_catalog/intro__description--catalog.scss";
 @import "intro/__description/_form/intro__description--form.scss";
 @import "intro/__header/intro__header.scss";
+@import "intro/__header/_catalog/intro__header--catalog.scss";
 @import "intro/__header/_form/intro__header--form.scss";
 @import "intro/__main-photo/_index/intro__main-photo--index.scss";
 @import "intro/__main-photo/_form/intro__main-photo--form.scss";

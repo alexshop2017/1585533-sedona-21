@@ -1,10 +1,28 @@
 .photo__like {
   display: flex;
+  margin-top: 12px;
 }
 
 .photo__like svg {
   fill: $color;
   opacity: 0.3;
+}
+
+@media (min-width: $tablet-width) {
+  .photo__like {
+    display: flex;
+    flex-direction: row;
+    width: 64px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .photo__like svg {
+    flex-shrink: 0;
+    width: 23px;
+    height: 21px;
+    margin-bottom: 16px;
+  }
 }
 
 @media (min-width: $desktop-width) {
