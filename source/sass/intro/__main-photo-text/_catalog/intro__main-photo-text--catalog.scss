@@ -7,3 +7,9 @@
     top: 94px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .intro__main-photo-text--catalog {
+    top: 101px;
+  }
+}

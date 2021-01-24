@@ -1,0 +1,17 @@
+.feedback-popup__header {
+  padding: 0;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-popup__header {
+    margin-top: 49px;
+    font-size: 30px;
+    line-height: 26px;
+  }
+}

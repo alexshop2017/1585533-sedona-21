@@ -70,7 +70,7 @@
               <source type="image/webp" srcset="img/main-photo-desktop-form.webp 1x, img/main-photo-desktop-form@2x.webp 2x" height="518" width="100%" media="(min-width: 1200px)">
               <source type="image/webp" srcset="img/main-photo-tablet-form.webp 1x, img/main-photo-tablet-form@2x.webp 2x" height="518" width="100%" media="(min-width: 768px)">
               <source type="image/webp" srcset="img/main-photo-mobile-form.webp 1x, img/main-photo-mobile-form@2x.webp 2x" height="158" width="320">
-              <source srcset="img/main-photo-desktop-form.jpg 1x, img/main-photo-desktop-form@2x.jpg 2x" height="289" width="100%" media="(min-width: 1200px)">
+              <source srcset="img/main-photo-desktop-form.jpg 1x, img/main-photo-desktop-form@2x.jpg 2x" height="301" width="100%" media="(min-width: 1200px)">
               <source srcset="img/main-photo-tablet-form.jpg 1x, img/main-photo-tablet-form@2x.jpg 2x" height="289" width="100%" media="(min-width: 768px)">
               <img class="intro__main-photo intro__main-photo--form" src="img/main-photo-mobile-form.jpg" srcset="img/main-photo-mobile@2x.jpg 2x" height="158" width="320" alt="Седона">
             </picture>
@@ -79,7 +79,8 @@
               <img src="img/sedona-text.svg" width=100% alt="">
             </picture>
             <picture class="intro__main-photo-triangle intro__main-photo-triangle--form">
-              <source srcset="img/main-photo-triangle-desktop.svg" media="(min-width: 768px)">
+              <source srcset="img/main-photo-triangle-desktop.svg" media="(min-width: 1200px)">
+              <source srcset="img/main-photo-triangle-tablet.svg" media="(min-width: 768px)">
               <img src="img/main-photo-triangle.svg" width="100%" height="57" alt="">
             </picture>
           </div>
@@ -110,7 +111,7 @@
               <div class="feedback-fieldset__input-wrapper feedback-fieldset__input-wrapper--contact">
                 <label class="feedback-fieldset__label feedback-fieldset__label--contact" for="feedback-fieldset__phone"><span class="feedback-fieldset__label-prefix--contact">Контактный </span>телефон*:</label>
                 <div class="feedback-fieldset__input-with-icon feedback-fieldset__input-with-icon--contacts">
-                  <input class="feedback-fieldset__input" type="tel" placeholder="Введите телефон" id="feedback-fieldset__phone">
+                  <input class="feedback-fieldset__input" type="tel" placeholder="Введите телефон" id="feedback-fieldset__phone" pattern="[0-9\-\s]+" required>
                   <div class="feedback-fieldset__input-icon">
                     <svg width=18 height=18 alt="телефон">
                       <use xlink:href="img/sprite.svg#phone-icon"></use>
@@ -121,7 +122,7 @@
               <div class="feedback-fieldset__input-wrapper feedback-fieldset__input-wrapper--contact">
                 <label class="feedback-fieldset__label feedback-fieldset__label--contact" for="feedback-fieldset__email">Электронная почта*:</label>
                 <div class="feedback-fieldset__input-with-icon feedback-fieldset__input-with-icon--contacts">
-                  <input class="feedback-fieldset__input" type="email" placeholder="Введите e-mail" id="feedback-fieldset__email">
+                  <input class="feedback-fieldset__input" type="email" placeholder="Введите e-mail" id="feedback-fieldset__email" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
                   <div class="feedback-fieldset__input-icon">
                     <svg width=16 height=12 alt="электронная почта">
                       <use xlink:href="img/sprite.svg#mail-icon"></use>
@@ -192,6 +193,20 @@
           <div class="feedback__submit-wrapper">
             <button class="feedback__submit-button" type="submit"><span>Отправить&nbsp;отзыв</span></button>
             <p class="feedback__required-fields-text">*&nbsp;—&nbsp;обязательные&nbsp;поля</p>
+          </div>
+          <div class="feedback-popup">
+            <p class="feedback-popup__header">Ваш отзыв отправлен!</p>
+            <p class="feedback-popup__description">Спасибо за ваше участие, ваш&nbsp;<br class="br">отзыв уже поступил к нам.&nbsp;<br class="br"><br class="br--tablet"><br class="br--desktop">В ближайшее время мы&nbsp;<br class="br">опубликуем его на сайте.</p>
+            <div class="feedback-popup__button-wrapper">
+              <button class="feedback-popup__button">Закрыть окно</button>
+            </div>
+          </div>
+          <div class="feedback-popup feedback-popup--error">
+            <p class="feedback-popup__header feedback-popup__header--error">Что-то пошло&nbsp;<br class="br--tablet"><br class="br--desktop">не так!</p>
+            <p class="feedback-popup__description">Проверьте поля, выделенные&nbsp;<br class="br">красным,&nbsp;<br class="br--tablet"><br class="br--desktop">скорее всего вы&nbsp;<br class="br">забыли их заполнить</p>
+            <div class="feedback-popup__button-wrapper feedback-popup__button-wrapper--error">
+              <button class="feedback-popup__button feedback-popup__button--error">Ок</button>
+            </div>
           </div>
         </form>
       </main>

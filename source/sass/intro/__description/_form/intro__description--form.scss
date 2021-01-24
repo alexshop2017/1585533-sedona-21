@@ -1,3 +1,9 @@
 .intro__description--form {
-  margin-top: 32px;
+  margin-top: 26px;
+}
+
+@media (min-width: $tablet-width) {
+  .intro__description {
+    margin-top: 33px;
+  }
 }

@@ -1,0 +1,14 @@
+.feedback-popup__button {
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 14px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  font-family: $font-family;
+  text-transform: uppercase;
+  color: $inverted-color;
+  background-color: $main-navigation-mobile-background-color;
+}

@@ -1,9 +1,15 @@
 .intro--catalog {
-  margin-bottom: 31px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: $tablet-width) {
+  .intro--catalog {
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .intro--catalog {
-    padding-bottom: 7px;
+    padding-bottom: 23px;
   }
 }

@@ -64,6 +64,15 @@
 @import "feedback-fieldset/__list/_rate/feedback-fieldset__list--rate.scss";
 @import "feedback-fieldset/__name-fields-wrapper/feedback-fieldset__name-fields-wrapper.scss";
 @import "feedback-fieldset/__textarea-wrapper/feedback-fieldset__textarea-wrapper.scss";
+@import "feedback-popup/feedback-popup.scss";
+@import "feedback-popup/_error/feedback-popup--error.scss";
+@import "feedback-popup/__button/feedback-popup__button.scss";
+@import "feedback-popup/__button/_error/feedback-popup__button--error.scss";
+@import "feedback-popup/__button-wrapper/feedback-popup__button-wrapper.scss";
+@import "feedback-popup/__button-wrapper/_error/feedback-popup__button-wrapper--error.scss";
+@import "feedback-popup/__description/feedback-popup__description.scss";
+@import "feedback-popup/__header/feedback-popup__header.scss";
+@import "feedback-popup/__header/_error/feedback-popup__header--error.scss";
 @import "hotel-search/hotel-search.scss";
 @import "hotel-search/__description/hotel-search__description.scss";
 @import "hotel-search/__search-button/hotel-search__search-button.scss";
@@ -94,6 +103,8 @@
 @import "intro/__main-photo-text/_catalog/intro__main-photo-text--catalog.scss";
 @import "intro/__main-photo-text/_form/intro__main-photo-text--form.scss";
 @import "intro/__main-photo-triangle/intro__main-photo-triangle.scss";
+@import "intro/__main-photo-triangle/_catalog/intro__main-photo-triangle--catalog.scss";
+@import "intro/__main-photo-triangle/_form/intro__main-photo-triangle--form.scss";
 @import "intro/__photo-wrapper/intro__photo-wrapper.scss";
 @import "intro/__photo-wrapper/_catalog/intro__photo-wrapper--catalog.scss";
 @import "intro/__photo-wrapper/_form/intro__photo-wrapper--form.scss";

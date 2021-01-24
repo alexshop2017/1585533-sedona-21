@@ -1,0 +1,10 @@
+@media (min-width: $tablet-width) {
+  .feedback-popup--error {
+    display: none;
+    text-align: center;
+    width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+  }
+}

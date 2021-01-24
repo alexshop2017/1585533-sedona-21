@@ -1,0 +1,11 @@
+@media (min-width: $tablet-width) {
+  .intro__main-photo-triangle--form {
+    bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro__main-photo-triangle--form {
+    bottom: -13px;
+  }
+}

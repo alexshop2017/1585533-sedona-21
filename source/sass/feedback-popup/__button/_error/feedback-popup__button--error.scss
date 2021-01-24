@@ -1,0 +1,12 @@
+.feedback-popup__button--error {
+  width: auto;
+  padding-left: 63px;
+  padding-right: 63px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-popup__button--error {
+    padding-left: 107px;
+    padding-right: 107px;
+  }
+}

@@ -7,3 +7,9 @@
     top: 93px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .intro__main-photo-text--form {
+    top: 103px;
+  }
+}

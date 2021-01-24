@@ -1,0 +1,19 @@
+.feedback-popup {
+  background-color: $background-color;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+
+@media (min-width: $desktop-width) {
+  .feedback-popup {
+    width: 640px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+  }
+}
