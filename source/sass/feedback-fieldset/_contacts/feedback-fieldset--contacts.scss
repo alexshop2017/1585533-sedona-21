@@ -4,6 +4,7 @@
 
 @media (min-width: $tablet-width) {
   .feedback-fieldset--contacts {
+    position: relative;
     grid-column-start: 1;
     grid-column-end: 3;
     display: flex;
@@ -11,6 +12,26 @@
     box-sizing: border-box;
     width: 100%;
     padding-top: 46px;
+  }
+
+  .feedback-fieldset--contacts::before {
+    position: absolute;
+    content: "";
+    top: 55px;
+    left: 0;
+    width: 19%;
+    height: 1px;
+    background-color: $line-color;
+  }
+
+  .feedback-fieldset--contacts::after {
+    position: absolute;
+    content: "";
+    top: 55px;
+    right: 0;
+    width: 19%;
+    height: 1px;
+    background-color: $line-color;
   }
 }
 
@@ -23,5 +44,25 @@
     padding-top: 33px;
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .feedback-fieldset--contacts::before {
+    position: absolute;
+    content: "";
+    top: 55px;
+    left: 60px;
+    width: 26%;
+    height: 1px;
+    background-color: $line-color;
+  }
+
+  .feedback-fieldset--contacts::after {
+    position: absolute;
+    content: "";
+    top: 55px;
+    right: 60px;
+    width: 26%;
+    height: 1px;
+    background-color: $line-color;
   }
 }

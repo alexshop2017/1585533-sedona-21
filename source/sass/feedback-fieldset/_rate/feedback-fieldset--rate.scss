@@ -1,6 +1,17 @@
 @media (min-width: $tablet-width) {
   .feedback-fieldset--rate {
+    position: relative;
     padding-top: 17px;
+  }
+
+  .feedback-fieldset--rate::after {
+    position: absolute;
+    content: "";
+    height: 87%;
+    width: 1px;
+    right: 0;
+    top: 20px;
+    background-color: $line-color;
   }
 }
 

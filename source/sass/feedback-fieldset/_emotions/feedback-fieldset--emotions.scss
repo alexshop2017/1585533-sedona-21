@@ -2,11 +2,52 @@
   .feedback-fieldset--emotions {
     padding-top: 10px;
   }
+
+  .feedback-fieldset--emotions::before {
+    position: absolute;
+    content: "";
+    bottom: 413px;
+    left: 60px;
+    width: 16%;
+    height: 1px;
+    background-color: $line-color;
+  }
+
+  .feedback-fieldset--emotions::after {
+    position: absolute;
+    content: "";
+    bottom: 413px;
+    right: 60px;
+    width: 16%;
+    height: 1px;
+    background-color: $line-color;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .feedback-fieldset--emotions {
+    position: relative;
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .feedback-fieldset--emotions::before {
+    position: absolute;
+    content: "";
+    top: 63px;
+    left: 60px;
+    width: 26%;
+    height: 1px;
+    background-color: $line-color;
+  }
+
+  .feedback-fieldset--emotions::after {
+    position: absolute;
+    content: "";
+    top: 63px;
+    right: 60px;
+    width: 26%;
+    height: 1px;
+    background-color: $line-color;
   }
 }
